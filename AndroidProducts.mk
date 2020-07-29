@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_h930.mk
+    $(LOCAL_DIR)/xtended_h930.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_h930-userdebug \
-    aosp_h930-eng
+    xtended_h930-userdebug \
+    xtended_h930-eng
