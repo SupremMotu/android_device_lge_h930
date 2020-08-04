@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_h930.mk
+    $(LOCAL_DIR)/potato_h930.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_h930-userdebug \
-    aosp_h930-eng
+    potato_h930-userdebug \
+    potato_h930-eng
