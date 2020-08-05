@@ -1,7 +1,7 @@
 $(call inherit-product, device/lge/h930/full_h930.mk)
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
@@ -14,10 +14,13 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Device identifiers
 
-PRODUCT_NAME := aosp_h930
+PRODUCT_NAME := revengeos_h930
+
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RELEASE_NAME := V30
+
+TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_GMS_CLIENTID_BASE := android-om-lg
 

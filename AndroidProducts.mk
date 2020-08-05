@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_h930.mk
+    $(LOCAL_DIR)/revengeos_h930.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_h930-userdebug \
-    aosp_h930-eng
+    revengeos_h930-userdebug \
+    revengeos_h930-eng
